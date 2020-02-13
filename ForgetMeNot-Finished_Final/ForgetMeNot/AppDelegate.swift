@@ -57,15 +57,15 @@ extension AppDelegate: CLLocationManagerDelegate {
   func locationManager(_ manager: CLLocationManager, didExitRegion region: CLRegion) {
     guard region is CLBeaconRegion else { return }
     
-    let content = UNMutableNotificationContent()
-    content.title = "Forget Me Not"
-    content.body = "Are you forgetting something?"
-//    content.sound = .default()
-    content.sound = UNNotificationSound(named: UNNotificationSoundName(string: "AlarmSound.wav") as String)
-
-    
-    let request = UNNotificationRequest(identifier: "ForgetMeNot", content: content, trigger: nil)
-    UNUserNotificationCenter.current().add(request, withCompletionHandler: nil)
+//    let content = UNMutableNotificationContent()
+//    content.title = "Forget Me Not"
+//    content.body = "Are you forgetting something?"
+////    content.sound = .default()
+//    content.sound = UNNotificationSound(named: UNNotificationSoundName(string: "AlarmSound.wav") as String)
+//
+//
+//    let request = UNNotificationRequest(identifier: "ForgetMeNot", content: content, trigger: nil)
+//    UNUserNotificationCenter.current().add(request, withCompletionHandler: nil)
   }
 }
 
