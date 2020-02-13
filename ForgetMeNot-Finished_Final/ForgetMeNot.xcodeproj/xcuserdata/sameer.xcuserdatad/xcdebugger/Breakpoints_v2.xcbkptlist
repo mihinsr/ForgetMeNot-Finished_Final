@@ -16,7 +16,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "95"
             endingLineNumber = "95"
-            landmarkName = "tableView(_:canEditRowAt:)"
+            landmarkName = "addBeacon(item:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -32,8 +32,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "32"
             endingLineNumber = "32"
-            landmarkName = "loadItems()"
-            landmarkType = "7">
+            landmarkName = "ItemsViewController"
+            landmarkType = "3">
             <Locations>
                <Location
                   uuid = "6BEBA58C-FBAC-4095-AB4B-312B864E9A0B - 5248cd3856c2ace5"
@@ -140,7 +140,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "35"
             endingLineNumber = "35"
-            landmarkName = "loadItems()"
+            landmarkName = "viewDidLoad()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

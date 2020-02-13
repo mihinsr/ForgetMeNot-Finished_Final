@@ -174,6 +174,13 @@ extension ItemsViewController: CLLocationManagerDelegate {
       for row in rowsToUpdate {
         let cell = tableView.cellForRow(at: row) as! ItemCell
         cell.refreshLocation()
+        let location = cell.lblLocation.text!
+        if location.contains("Unknown") {
+            cell.lblState.text = "ABSENT"
+        }else{
+            cell.lblState.text = "PRESENT"
+        }
+        
       }
     }
     
